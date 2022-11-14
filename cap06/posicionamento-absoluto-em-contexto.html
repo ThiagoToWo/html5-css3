@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+	<title>Posicionamento Absoluto em Contexto</title>
+	<meta charset="utf-8">
+	<style>
+	div {
+		width: 360px;
+		padding: 10px 20px;
+		border: 2px solid black;
+	}
+	
+	p {
+		border: 2px dotted black;
+		padding: 10px 20px;
+	}
+	
+	.tres {
+		position: absolute;		
+		background: #ddd;
+		left: 90px;
+		top: 125px;
+	}
+	
+	div.container {
+		position: relative;
+	}
+	</style>
+</head>
+<body>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+<div class="container">
+	<p>Phasellus efficitur dapibus magna, sit amet sodales sem maximus sed. Aliquam dignissim neque vel enim interdum efficitur. Vestibulum luctus lacinia mi, in molestie enim porttitor at. Fusce consequat ex lorem, in lacinia sem iaculis ac.</p>
+	<p class="tres">Sed posuere quam lorem, et finibus arcu hendrerit vitae. Proin et elit volutpat, faucibus lorem fermentum, consequat turpis.</p>
+	<p>Cras consequat lectus ut dui maximus, sit amet aliquet dolor maximus. Mauris fringilla nunc quis turpis venenatis, eget tincidunt sem dictum. Nullam aliquam sapien sed lectus mollis laoreet. Vivamus tristique dolor porttitor, feugiat tellus id, eleifend diam.</p>
+</div>
+</body>
+</html>

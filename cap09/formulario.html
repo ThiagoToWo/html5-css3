@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+	<title>Formulários</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="../normalize.css">
+	<style>
+	*, *:before, *:after {box-sizing: border-box;}
+	
+	.clear {clear: both;}
+	
+	body {
+		font: araial, sans-serif;
+		background: #ccc;
+	}
+	
+	#tudo {
+		width: 100%;
+		max-width: 960px;
+		margin: 0 auto;
+		background: #fff;
+	}
+	
+	.topo-header {
+		text-align: right;
+		background: #360;
+		padding: 2px 20px;
+		
+	}
+	
+	.topo-header h1  {
+		font-size: 36px;
+		margin: 4px 0 2px 0;
+	}
+	
+	.topo-header a  {
+		color: #fff;
+		text-decoration: none;
+	}
+	.topo-header h2 {
+		font-size: 20px;
+		margin: 2px 0 4px 0;
+		color: #fff;
+	}
+	
+	.principal {
+		padding: 20px 25px;
+	}
+	
+	.rodape {
+		text-align: center;
+		background: #360;
+		color: #fff;
+		padding: 5px 0;
+	}
+	</style>
+</head>
+<body>
+<div id="tudo">
+	<div class="topo">
+		<header class="topo-header">
+			<hgroup>
+				<h1><a href="/">Formulários</a></h1>
+				<h2>Elementos e atributos</h2>
+			</hgroup>
+		</header>
+	</div>
+	<div class="principal">
+		<main class="principal-main">
+			<section>
+				<h1>Elementos de Formulário</h1>
+				<form>
+					<fieldset>
+						<legend>Dados Pessoais</legend>
+						<p></p><label> Nome Completo:
+							<input type="text" id="nome" value="Thiago Alves" autofocus required>
+						</label>					
+						<p><label for="idade">Idade: </label>
+							<input type="number" id="idade" value="36" required>
+						<p><label for="data-nascimento">Data de Nascimento: </label>
+							<input type="date" id="data-nascimento" required>
+						<p><label for="hora-nascimento">Hora de Nascimento: </label>
+							<input type="time" id="hora-nascimento" required>
+						<p><label for="telefone">Telefone: </label>
+							<input type="tel" id="telefone" maxlength="15" pattern="\([0-9]{2}\) [0-9]{5}-[0-9]{4}" placeholder="(xx) xxxxx-xxxx" required>
+						<p><label>Site pessoal:
+							<input type="url" size="40" list="sites">
+							<datalist id="sites">
+								<option>thiagotowo.github.io/jogos-educativos-html5</option>
+								<option>thiagotowo.github.io/compra-livros</option>
+							</datalist>
+						</label>
+						<p><label>Sexo:
+							<input type="radio" name="sexo" required> Masculino
+							<input type="radio" name="sexo" required> Feminino
+						</label>
+					</fieldset>
+					<fieldset>
+						<legend>Preferências Pessoais</legend>
+						<p><label>Cor:
+							<input type="color" required>
+						</label>
+						<p><label>Comidas:
+							<input type="checkbox"> Salgados
+							<input type="checkbox"> Doces
+							<input type="checkbox"> Carnes
+							<input type="checkbox"> Sopas e caldos
+						</label>
+						<p><label>Estudar:
+							<select>
+								<optgroup label="Exatas">
+									<option>Matemática</option>
+									<option>Física</option>
+									<option>Química</option>
+									<option>Programação</option>
+								</optgroup>
+								<optgroup label="Linguagens">
+									<option>Português</option>
+									<option>Literatura Estrangeira</option>
+									<option>Literatura Brasileira</option>
+									<option>Espanhol</option>
+									<option>Inglês</option>
+								</optgroup>
+								<optgroup label="Biológicas">
+									<option>Biologia</option>
+									<option>Medicina</option>
+									<option>Farmacologia</option>
+								</optgroup>
+								<optgroup label="Sociais">
+									<option>História</option>
+									<option>Sociologia</option>
+									<option>Geografia</option>
+								</optgroup>
+							</select>
+						</label>
+						<p><label for="msg">Deixe uma mensagem:</label>
+							<textarea id="msg" rows="10" cols="50" style="display: block"></textarea>
+					</fieldset>
+					<fieldset>
+						<legend>Outros</legend>
+						<p><label>Pesquisa:
+							<input type="search">
+						</label>
+						<p><label>Hidden:
+							<input type="hidden">
+						</label>
+						<p><label>Nível de Satisfação:
+							<input type="range" min="0" max="100" value="10">
+						</label>
+						<p><input type="file">
+						<p><button type="submit">Button-Submit</button>
+							<button type="reset">Button-Reset</button>
+							<button type="button" onclick="location.href='http://thiagotowo.github.io/compra-livros'">Button-Link</button>
+					</fieldset>
+					<fieldset>
+						<legend>Login</legend>
+						<p><label for="email" required>E-mail:</label>
+							<input type="email" id="email" required>
+						<p><label for="senha" required>Senha: </label>
+							<input type="password" minlength="8" id="senha" required>
+						<p><input type="button" value="Entrar">
+							<input type="image" src="botao.png">
+					</fieldset>
+					<p><input type="submit">
+					<input type="reset">
+				</form>
+			</section>
+		</main>
+	</div>
+	<div class="rodape">
+		<footer class="rodape-footer">
+		Thiago Alves - 2022 &copy; Todos os direitos reservados
+		</footer>
+	</div>
+</div>
+</body>
+</html>

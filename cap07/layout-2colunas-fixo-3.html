@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+	<title>Layout 2 Colunas de Largura Fixa 3</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="../normalize.css">	
+	<style>
+	*, *:before, *:after {
+		box-sizing: border-box;
+	}
+	
+	.clear {clear: both;}
+	
+	body {
+		font: 18px/1.4 arial, sans-serif;
+		color: #333;
+		background: #ccc;
+	}
+	
+	#tudo {
+		width: 960px;
+		margin: 0 auto;
+		background: #fff;
+	}
+	
+	h1, h2, h3, h4, h5, h6 {color: #036;}
+	
+	.topo-header {
+		background: #036;
+		padding: 5px 20px;
+	}
+	
+	.topo-header h1 {
+		font-size: 36px;
+		text-align: right;
+		margin: 4px 0 2px 0;
+	}
+	
+	.topo-header a {
+		color: #fff;
+		text-decoration: none;
+	}
+	
+	.topo-header h2 {
+		font-size: 20px;
+		text-align: right;
+		margin: 2px 0 4px 0;
+		color: #fff;
+	}
+	
+	.principal {
+		width: 720px;
+		float: right;
+	}
+	
+	.auxiliar {
+		width: 220px;
+		float: left;
+	}
+	
+	.rodape {
+		clear: both;
+		background: #036;
+		color: #fff;
+		padding: 5px 0;
+		text-align: center;
+	}
+	</style>
+</head>
+<body class="home">
+<div id="tudo">
+	<div class="topo">
+		<header class="topo-header">
+			<hgroup>
+				<h1><a href="/">Site do Thiago</a></h1>
+				<h2>Site destinado a divulgar o trabalho de Thiago Alves</h2>
+			</hgroup>
+		</header>
+	</div>
+	<div class="principal">
+		<main>
+			<h1>Título 1</h1>
+			<section class="principal-secaoum">
+				<h2>Subtítulo 1</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus efficitur dapibus magna, sit amet sodales sem maximus sed. Aliquam dignissim neque vel enim interdum efficitur. Vestibulum luctus lacinia mi, in molestie enim porttitor at. Fusce consequat ex lorem, in lacinia sem iaculis ac. Nulla tristique sapien vel viverra euismod. Sed posuere quam lorem, et finibus arcu hendrerit vitae. Proin et elit volutpat, faucibus lorem fermentum, consequat turpis.</p>
+				
+				<h2>Subtítulo 2</h2>
+				<p>Cras consequat lectus ut dui maximus, sit amet aliquet dolor maximus. Mauris fringilla nunc quis turpis venenatis, eget tincidunt sem dictum. Nullam aliquam sapien sed lectus mollis laoreet. Vivamus tristique dolor porttitor, feugiat tellus id, eleifend diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac enim ut nunc volutpat dictum. In iaculis elit est, eget sollicitudin sem pulvinar at. Etiam accumsan hendrerit magna. Nam in porttitor nisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse nec egestas tortor, et posuere sem. Fusce euismod accumsan mollis.</p>
+			</section>
+		</main>
+	</div>
+	<div class="auxiliar">
+		<nav class="auxiliar-navegacao">
+			<h2>Menu</h2>
+			<ul>
+				<li><a class="corrente" href="home.html">home</a></li>
+				<li><a href="portfolio.html">portfólio</a></li>
+				<li><a href="artigos-html">artigos HTML</a></li>
+				<li><a href="artigos-css">artigos CSS</a></li>
+				<li><a href="contatos.html">contatos</a></li>
+			</ul>
+		</nav>
+		<aside class="auxiliar-parceiros">
+			<ul class="auxiliar-parceiros-titulos">
+				<li><a href="#">Parceiro Um</a></li>
+				<li><a href="#">Parceiro Dois</a></li>
+				<li><a href="#">Parceiro Três</a></li>
+				<li><a href="#">Parceiro Quatro</a></li>
+			</ul>
+			<div class="auxiliar-parceiros-imagens">
+				<figure>
+					<a href="$">
+						<img src="parceiroA.png" alt="Imagem parceiro A">
+					</a>
+				</figure>
+				<figure>
+					<a href="$">
+						<img src="parceiroB.png" alt="Imagem parceiro B">
+					</a>
+				</figure>
+				<figure>
+					<a href="$">
+						<img src="parceiroC.png" alt="Imagem parceiro C">
+					</a>
+				</figure>
+				<figure>
+					<a href="$">
+						<img src="parceiroD.png" alt="Imagem parceiro D">
+					</a>
+				</figure>
+				<figure>
+					<a href="$">
+						<img src="parceiroE.png" alt="Imagem parceiro E">
+					</a>
+				</figure>				
+			</div>
+		</aside>
+	</div>
+	<div class="rodape">
+		<footer>
+			<small>Site do Thiago - 2022 &copy; Todos os direitos reservados</small>
+		</footer>
+	</div>
+</div>
+</body>
+</html>
