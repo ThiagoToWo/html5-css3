@@ -1,0 +1,59 @@
+capítulo, página: descrição.
+
+cap. 1, pág. 36: 
+	No 3º parágrafo da seção 1.5.7 se lê : "(...), aguarde até chegarmos ao capítulo que trata da publicação de sites e lá mostraremos como usar a ferramenta.". Porém, não existe esse capítulo no livro e não explica como usar o cliente FTP.
+
+cap. 2, pág. 40:
+	No 3º parágrafo, início 3ª linha há o erro de grafia: "consiste-sena chamada".
+
+cap. 3, pág. 57:
+	No item "i e em", 2º parágrafo, 1ª linha há o erro de grafia: "(incolinado)".
+
+cap. 3, pág. 68:
+	Na 1ª linha de código após "HTML" tem uma tag desnecessária para o canvas: "<video controls>".
+
+cap. 4, pág. 92:
+	No 5º parágrafo há uma afirmação redundante: "(...) é obtida pela mistura DA COR VERMELHA em uma quantidade 2E de vermelho, (...)".
+
+cap. 5, pág. 114:
+	nas linhas 18 a 21 da tabela os seletores estão grafados com "::". São eles "E::first-line", "E::first-letter", "E::before", "E::after".
+
+cap. 5, pág. 115:
+	No 1º parágrafo da seção 5.2.1 tem a referência errada "ver [4.3.2]". O certo seria "ver [4.7.2]".
+	Falta os números das linhas no código CSS para os comentários.
+
+cap. 5, pág. 117:
+	A ação descrita na "linha 9" não funciona se não tirar "<div class='clear'></div>" do HTML proposto na página 110.
+
+cap. 5, pág. 119:
+	Falta número das linhas no código HTML para os comentários.
+
+cap. 5, pág. 121:
+	Na linha 3 do código: "*, *:before, *:after {inherit;}", faltou colocar a propriedade "box-sizing". Logo abaixo tem uma chave "}" desnecessária.
+
+cap. 5, pág. 123:
+	Não existe a linha 2 marcada no código para a descrição comentada.
+
+cap. 6, pág. 146:
+	A fig. 6.11 não representa o código HTML da página 145. O texto dos parágrafos estão trocados. Fica correto das figuras 6.12 até 6.14.
+
+cap. 7, pág. 173:
+	No 1º item que descreve a folha de estilo proposta, "[4.6]" deve ser trocado por "[5.2.2 - 1ª etapa]".
+	No 3º item que descreve a folha de estilo proposta, "[5.2.3 - 5ª etapa]" deve ser trocado por "[5.2.2 - 5ª etapa]".
+	No último parágrafo, o arquivo não pode ser acessado no site nem após download, pois o seu formato no link está com extensão ".htm", o que não linka com a versão ".html" salva na pasta.
+
+cap. 7, pág. 179:
+	No 2º parágrafo, 2ª linha, o correto é "1200px para largura MÁXIMA" e "760px para largura MÍNIMA".
+
+cap. 8, pág. 184:
+	No 1º parágrafo, última linha, há um erro na grafia "Todos os valores DEVER ser separados (...)".
+
+cap. 8, pág. 184 E 185:
+	O uso dos termos "unidades de medida CSS" deveria ser trocado por "valores CSS". Alguns valores possuem unidade de medida, mas nunca existe apenas a unidade de medida.
+
+cap. 8, pág. 193:
+	O formato de radial-gradient atualmente usa-se apenas
+radial-gradient(forma tamanho at coordenadas do centro, cor stop, ...).
+
+cap. 8, pág. 202:
+	Na 1ª linha, "200px" deve ser trocado por "250px", o valor da propriedade descrita.
